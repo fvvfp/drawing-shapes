@@ -1,3 +1,45 @@
+
+# DEBUGGING
+
+## Task 1:
+   - Set formula for turn angle to 180 - 360/numSides (this is for the interior angle, not exterior angle). 
+   - Corrected it to 360/numSides.
+   
+## Task 2: 
+   - Used setPosition without lifting the "turtle's tail," resulting in a line from the Task 1 shape to the Task 2 shapes
+   - Added t.up() before setPosition and t.down() after
+
+## Task 3:
+   - Printed "times!" directly after totalTurns, resulted in the string "...turned 60times!"
+   - Added a space before "times!" (" times!")
+
+## Extension 2 (Triply Nested Loop)
+   - Tried to use the non-static method "clear" with Turtle.clear
+   - Changed to t.clear()
+   
+   - tried to add (random double) * int + int (adding a double to an int, error)
+   - caseted (random double) * int to an int before adding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Specification
 
 ## 📖 Learning Objectives
