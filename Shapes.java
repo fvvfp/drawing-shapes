@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Shapes {
     public static void main(String[] args) {
-      Turtle.setCanvasSize(500, 500);
+      Turtle.setCanvasSize(800, 500);
       Turtle t = new Turtle(-100, 100);
     
       // Task 1: Draw a regular shape
@@ -61,7 +61,7 @@ public class Shapes {
       // Extension 2: Triply Nested Loop
       t.clear();
       t.speed(3.0);
-      for (int k  = 0; k < 100; k++) {
+      for (int k  = 0; k < 20; k++) {
          t.up();
          t.setPosition(r.nextGaussian() * 50, r.nextGaussian() * 50);
          t.down();
